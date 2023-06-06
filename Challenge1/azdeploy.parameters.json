@@ -1,0 +1,33 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "adminUsername": {
+            "value": ""
+        },
+        "webserverCount": {
+            "value": 2
+        },
+        "appserverCount": {
+            "value": 2
+        },
+        "dbserverCount": {
+            "value": 2
+        },
+        "remoteAllowedCIDR": {
+            "value": "0.0.0.0/0"
+        },
+        "location": {
+            "value": ""
+        },
+        "authenticationType": {
+            "value": "sshPublicKey"
+        },
+        "adminPasswordOrKey": {
+            "value": ""
+        },
+        "vmSize": {
+            "value": "Standard_D2_v3"
+        }
+    }
+}
